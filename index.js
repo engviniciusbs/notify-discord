@@ -20,4 +20,4 @@ client.on('voiceStateUpdate', (oldState, newState) => {
   }
 });
 
-client.login(process.env.TOKEN);
+client.login(process.env.DISCORD_TOKEN);
